@@ -15,19 +15,19 @@ After implementing Google Analytics/Ads tracking, User.com chat widget, Trustpil
 
 ### --> Empty gatsby project
 
-**Lighthouse Perfomance:** 100
-**Time to Interactive:** 1.0s
-**Total Blocking Time:** 10ms
-**Transfer Size:** 62.9kb
+- **Lighthouse Perfomance:** 100
+- **Time to Interactive:** 1.0s
+- **Total Blocking Time:** 10ms
+- **Transfer Size:** 62.9kb
 
 ### --> Added plugin gatsby-cloud
 
 RESULT:
 
-**Lighthouse Perfomance:** 100
-**Time to Interactive:** 0.8s (-0.8 sec)
-**Total Blocking Time:** 0ms (-10 ms)
-**Transfer Size:** 62.9kb (no change)
+- **Lighthouse Perfomance:** 100
+- **Time to Interactive:** 0.8s (-0.8 sec)
+- **Total Blocking Time:** 0ms (-10 ms)
+- **Transfer Size:** 62.9kb (no change)
 
 ### --> Added GUA/Ads tracking scripts
 
@@ -35,10 +35,10 @@ Script added before body tag via gatsby-plugin-google-gtag
 
 RESULT:
 
-**Lighthouse Perfomance:** 100
-**Time to Interactive:** 2.3s (+1.5 sec)
-**Total Blocking Time:** 70ms (+70 ms)
-**Transfer Size:** 174.7kb (+111.8 kb)
+- **Lighthouse Perfomance:** 100
+- **Time to Interactive:** 2.3s (+1.5 sec)
+- **Total Blocking Time:** 70ms (+70 ms)
+- **Transfer Size:** 174.7kb (+111.8 kb)
 
 ### --> Added User.com chat widget
 
@@ -46,10 +46,10 @@ Script added before body tag via SSR API using setPostBodyComponents method.
 
 RESULT:
 
-**Lighthouse Perfomance:** 96 (-4)
-**Time to Interactive:** 4.1s ( +1.8 sec)
-**Total Blocking Time:** 280 ms (+210 ms)
-**Transfer Size:** 248kb (+73.3 kb)
+- **Lighthouse Perfomance:** 96 (-4)
+- **Time to Interactive:** 4.1s ( +1.8 sec)
+- **Total Blocking Time:** 280 ms (+210 ms)
+- **Transfer Size:** 248kb (+73.3 kb)
 
 ### --> Added Nimbata call tracking
 
@@ -57,10 +57,10 @@ Script added before body tag via SSR API using setPostBodyComponents method.
 
 RESULT:
 
-**Lighthouse Perfomance:** 94 (-2)
-**Time to Interactive:** +4.3s ( +0.2 sec)
-**Total Blocking Time:** 320 ms (+40 ms)
-**Transfer Size:** 254kb (+6 kb)
+- **Lighthouse Perfomance:** 94 (-2)
+- **Time to Interactive:** +4.3s ( +0.2 sec)
+- **Total Blocking Time:** 320 ms (+40 ms)
+- **Transfer Size:** 254kb (+6 kb)
 
 ### --> Added Trustpilot trustbox
 
@@ -68,14 +68,14 @@ Script added before body tag via SSR API using setPostBodyComponents method.
 
 RESULT:
 
-**Lighthouse Perfomance:** 88 (-6)
-**Time to Interactive:** +4.6s ( +0.3 sec)
-**Total Blocking Time:** 470 ms (+150 ms)
-**Transfer Size:** 319kb (+65 kb)
+- **Lighthouse Perfomance:** 88 (-6)
+- **Time to Interactive:** +4.6s ( +0.3 sec)
+- **Total Blocking Time:** 470 ms (+150 ms)
+- **Transfer Size:** 319kb (+65 kb)
 
 #### Total change vs blank repo
 
-**Lighthouse Perfomance:** -12
-**Time to Interactive:** +3.8s
-**Total Blocking Time:** +460ms
-**Transfer Size:** +256.1
+- **Lighthouse Perfomance:** -12
+- **Time to Interactive:** +3.8s
+- **Total Blocking Time:** +460ms
+- **Transfer Size:** +256.1

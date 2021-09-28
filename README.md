@@ -6,6 +6,7 @@ After implementing Google Analytics/Ads tracking, User.com chat widget, Trustpil
 
 1. Is it possible to delay loading User.com, Trustpilot and Nimbata scripts? It is not vital for my site them to load immediately. There could easily be a few seconds delay. Alternatively Trustpilot and User.com could start loading whenever a scroll event is triggered or if a users scrolls to a particular place.
 2. Are there any better methods available perfomance wise for adding Google Analytics and Googel Ads scripts than gatsby plugin gtag?
+3. Are there any other ways to improve this repo's perfomance score on Lighthouse?
 
 **Site's URL:** https://gatsbyscript.gatsbyjs.io
 **Repo:** https://github.com/Webcontext-Limited/gatsby-script

@@ -31,7 +31,7 @@ RESULT:
 
 ### --> Added GUA/Ads tracking scripts
 
-Script added before body tag via gatsby-plugin-google-gtag
+*Script added before body tag via gatsby-plugin-google-gtag*
 
 RESULT:
 
@@ -42,7 +42,7 @@ RESULT:
 
 ### --> Added User.com chat widget
 
-Script added before body tag via SSR API using setPostBodyComponents method.
+*Script added before body tag via SSR API using setPostBodyComponents method.*
 
 RESULT:
 
@@ -53,7 +53,7 @@ RESULT:
 
 ### --> Added Nimbata call tracking
 
-Script added before body tag via SSR API using setPostBodyComponents method.
+*Script added before body tag via SSR API using setPostBodyComponents method.*
 
 RESULT:
 
@@ -64,7 +64,7 @@ RESULT:
 
 ### --> Added Trustpilot trustbox
 
-Script added before body tag via SSR API using setPostBodyComponents method.
+*Script added before body tag via SSR API using setPostBodyComponents method.*
 
 RESULT:
 

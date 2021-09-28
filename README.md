@@ -1,6 +1,6 @@
 # How to reduce perfomance loss caused by third party scripts?
 
-After implementing Google Analytics/Ads tracking, User.com chat widget, Trustpilot's trustbox and Nimbata call tracking scripts to the barebones Gatsby site then the perfomance on Lighthouse goes from 100 to 88, it then takes 3.8 seconds longer for the site to become interactive and the size of the site increases 256kb.
+After implementing Google Analytics/Ads tracking, User.com chat widget, Trustpilot's trustbox and Nimbata call tracking scripts to the barebones Gatsby site then the perfomance on Lighthouse goes from 100 to 88, it then takes 3.8 seconds longer for the site to become interactive and the size of the site increases by 256kb.
 
 ## Questions
 
@@ -31,7 +31,7 @@ RESULT:
 
 ### --> Added GUA/Ads tracking scripts
 
-*Script added before body tag via gatsby-plugin-google-gtag*
+_Script added before body tag via gatsby-plugin-google-gtag_
 
 RESULT:
 
@@ -42,7 +42,7 @@ RESULT:
 
 ### --> Added User.com chat widget
 
-*Script added before body tag via SSR API using setPostBodyComponents method.*
+_Script added before body tag via SSR API using setPostBodyComponents method._
 
 RESULT:
 
@@ -53,7 +53,7 @@ RESULT:
 
 ### --> Added Nimbata call tracking
 
-*Script added before body tag via SSR API using setPostBodyComponents method.*
+_Script added before body tag via SSR API using setPostBodyComponents method._
 
 RESULT:
 
@@ -64,7 +64,7 @@ RESULT:
 
 ### --> Added Trustpilot trustbox
 
-*Script added before body tag via SSR API using setPostBodyComponents method.*
+_Script added before body tag via SSR API using setPostBodyComponents method._
 
 RESULT:
 
@@ -73,7 +73,7 @@ RESULT:
 - **Total Blocking Time:** 470 ms (+150 ms)
 - **Transfer Size:** 319kb (+65 kb)
 
-#### Total change vs blank repo
+### --> Total change vs blank repo
 
 - **Lighthouse Perfomance:** -12
 - **Time to Interactive:** +3.8s

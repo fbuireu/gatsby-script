@@ -24,5 +24,10 @@ export const onRenderBody = ({ setPostBodyComponents }) => {
       type={`text/javascript`}
       src={`https://mms.user.com/widget.js`}
     />,
+    <script
+      key={v4()}
+      type={`text/javascript`}
+      src={`/cdn.dni.nimbata.com/288803921.min.js`}
+    />,
   ]);
 };

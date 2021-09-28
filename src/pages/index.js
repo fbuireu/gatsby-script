@@ -1,4 +1,5 @@
 import * as React from 'react';
+import TrustBox from '../components/Trustbox';
 
 const IndexPage = () => (
   <section style={{ margin: '50px' }}>
@@ -7,6 +8,8 @@ const IndexPage = () => (
     </h1>
     <p>This is Nimbata dynamic tracking number:</p>
     <button>0161 794 0088</button>
+    <p style={{ marginTop: `20px` }}>This is Trustbox:</p>
+    <TrustBox />
   </section>
 );
 

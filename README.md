@@ -1,3 +1,9 @@
+# Gatsby Script
+You’re now entering a forked repository. At some point, I must have helped out or maybe I fixed part of its source code or contributed in other ways. The repository is now archived, read at your own risk.
+
+<details>
+  <summary>Find below the original README.md</summary>
+
 # How to reduce perfomance loss caused by third party scripts?
 
 After implementing Google Analytics/Ads tracking, User.com chat widget, Trustpilot's trustbox and Nimbata call tracking scripts to the barebones Gatsby site then the perfomance on Lighthouse goes from 100 to 88, it then takes 3.8 seconds longer for the site to become interactive and the size of the site increases by 256kb.
@@ -79,3 +85,5 @@ RESULT:
 - **Time to Interactive:** +3.8s
 - **Total Blocking Time:** +460ms
 - **Transfer Size:** +256.1
+
+</details>
